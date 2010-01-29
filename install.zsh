@@ -16,5 +16,8 @@ rm -fr ~/.oh-my-zsh/themes/takai.zsh-theme
 # Install theme
 ln -s "$(pwd)/takai.zsh-theme" ~/.oh-my-zsh/themes/
 
+# Remove any old version of j
+rm ~/.j.sh
+
 # Install j
 ln -s "$(pwd)/j.sh" ~/.j.sh
