@@ -51,6 +51,11 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin/:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin/:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/takai/bin:/usr/local/mysql/bin:/Users/takai/Java/groovy/bin:/Users/takai/Java/grails/bin:/Users/takai/Java/apache-maven-2.0.9/bin:/Users/takai/Java/play/:/opt/local/bin:/Users/takai/Java/jboss-seam-2.0.2.SP1/:/Users/takai/Java/android//tools:/Users/takai/Java/scala/bin:/Users/takai/Java/appengine/bin
 
 alias ls='ls -G'
+
+function search {
+    cat ~/.bash_history | grep $*
+}
+
 source $HOME/.j.sh
 
 bindkey "^[[3~" delete-char
