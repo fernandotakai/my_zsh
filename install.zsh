@@ -2,7 +2,7 @@ if [[ -f ~/.zshrc ]]; then
     rm -fr ~/.zshrc
 fi
 
-ln -s ./zshrc ~/.zshrc
+ln -s "$(pwd)/zshrc" ~/.zshrc
 
 if [[ ! -d ~/.oh-my-zsh ]]; then
     echo "You don't have oh my zsh, installing..."
