@@ -9,8 +9,6 @@ if [[ ! -d ~/.oh-my-zsh ]]; then
     wget http://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 fi
 
-if [[ -f ~/.oh-my-zsh/themes/takai.zsh-theme ]]; then
-    rm -fr ~/.oh-my-zsh/themes/takai.zsh-theme
-fi
+rm -fr ~/.oh-my-zsh/themes/takai.zsh-theme
 
-ln -s ./takai.zsh-theme ~/.oh-my-zsh/themes/
+ln -s "$(pwd)/takai.zsh-theme" ~/.oh-my-zsh/themes/
