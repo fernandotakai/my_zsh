@@ -10,8 +10,11 @@ if [[ ! -d ~/.oh-my-zsh ]]; then
     cp ./hg.zsh ~/.oh-my-zsh/lib/
 fi
 
+# Remove any version of the old theme
 rm -fr ~/.oh-my-zsh/themes/takai.zsh-theme
 
+# Install theme
 ln -s "$(pwd)/takai.zsh-theme" ~/.oh-my-zsh/themes/
-git clone git://github.com/rupa/j.git j
-ln -s "$(pwd)/j/j.sh" ~/.j.sh
+
+# Install j
+ln -s "$(pwd)/j.sh" ~/.j.sh
