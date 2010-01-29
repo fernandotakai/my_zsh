@@ -13,3 +13,5 @@ fi
 rm -fr ~/.oh-my-zsh/themes/takai.zsh-theme
 
 ln -s "$(pwd)/takai.zsh-theme" ~/.oh-my-zsh/themes/
+git clone git://github.com/rupa/j.git j
+ln -s "$(pwd)/j/j.sh" ~/.j.sh
