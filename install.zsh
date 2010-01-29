@@ -23,3 +23,5 @@ fi
 
 # Install j
 ln -s "$(pwd)/j.sh" ~/.j.sh
+
+chsh -s /bin/zsh
