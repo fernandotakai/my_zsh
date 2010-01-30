@@ -59,3 +59,7 @@ function search {
 source $HOME/.j.sh
 
 bindkey "^[[3~" delete-char
+
+echo ""
+fortune
+echo ""
