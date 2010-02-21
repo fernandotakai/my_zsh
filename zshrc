@@ -18,6 +18,8 @@ export LC_ALL=en_US.UTF-8
 export HISTSIZE=100000000000000000
 export SAVEHIST=100000000000000000
 
+export GIT_EDITOR="mvim -v"
+
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -48,7 +50,7 @@ PR_NO_COLOR="%{$terminfo[sgr0]%}"
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin/:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin/:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/takai/bin:/usr/local/mysql/bin:/Users/takai/Java/groovy/bin:/Users/takai/Java/grails/bin:/Users/takai/Java/apache-maven-2.0.9/bin:/Users/takai/Java/play/:/opt/local/bin:/Users/takai/Java/jboss-seam-2.0.2.SP1/:/Users/takai/Java/android//tools:/Users/takai/Java/scala/bin:/Users/takai/Java/appengine/bin
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/takai/bin:/usr/local/mysql/bin:/Users/takai/Java/groovy/bin:/Users/takai/Java/grails/bin:/Users/takai/Java/apache-maven-2.0.9/bin:/Users/takai/Java/play/:/opt/local/bin:/Users/takai/Java/jboss-seam-2.0.2.SP1/:/Users/takai/Java/android//tools:/Users/takai/Java/scala/bin:/Users/takai/Java/appengine/bin
 
 alias ls='ls -G'
 
